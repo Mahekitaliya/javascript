@@ -28,14 +28,14 @@
 
 // 3. Write a JS function that accepts a string as a parameter and converts the first letter of each word of the string in upper 
 
-function upper(string){
-  let array = string.split(' ');
-  let newArray = [];
-  for(let x = 0; x < array.length; x++){
-      newArray.push(array[x].charAt(0).toUpperCase() + array[x].slice(1));
-  }return newArray.join(' ');
-}
-console.log(upper('the quick brown fox'));
+// function upper(string){
+//   let array = string.split(' ');
+//   let newArray = [];
+//   for(let x = 0; x < array.length; x++){
+//       newArray.push(array[x].charAt(0).toUpperCase() + array[x].slice(1));
+//   }return newArray.join(' ');
+// }
+// console.log(upper('the quick brown fox'));
 
 // ------------------------------4---------------------
 
