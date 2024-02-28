@@ -105,6 +105,7 @@
 // console.log(x);
 
 
+
 function add(...args){
     let sum = 0;
     for(let i= 0 ; i<args.length ; i++)
@@ -114,5 +115,36 @@ function add(...args){
 }
 
 console.log(add(16, 16));
+
+// Generator Function
+
+function* generate() {
+    yield 1;
+    yield 2;
+    return 3;
+}   
+let generator = generate();
+console.log(generator.next().value); 
+console.log(generator.next().value); 
+console.log(generator.next().value);
+
+// this Keyword
+
+const person = {
+    firstName: "John",
+    lastName: "Doe",
+    id: 5566,
+    fullName : function() {
+                    return this.firstName + " " + this.lastName;
+        }
+};  
+
+
+
+
+
+
+
+
 
 
