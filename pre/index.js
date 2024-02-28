@@ -42,30 +42,30 @@
 // 4. Write a JavaScript function that accepts a string as a parameter and finds the longest word within the string.
 // Example string : 'Web Development Tutorial'
 // Expected Output : 'Development'
-function findLongestWord(str) {
+// function findLongestWord(str) {
 
-  var words = str.split(' ');
+//   var words = str.split(' ');
   
-  var maxLength = 0;
+//   var maxLength = 0;
   
-  var longestWord = '';
+//   var longestWord = '';
   
   
-   for (var i = 0; i < words.length; i++) {
+//    for (var i = 0; i < words.length; i++) {
   
-   if (words[i].length > maxLength) {
+//    if (words[i].length > maxLength) {
   
-   maxLength = words[i].length;
+//    maxLength = words[i].length;
   
-   longestWord = words[i];
-  }
-}
+//    longestWord = words[i];
+//   }
+// }
   
-   return longestWord;
-  }
+//    return longestWord;
+//   }
   
-  var longest = findLongestWord("Web Development Tutorial");
-  console.log(longest);
+  // var longest = findLongestWord("Web Development Tutorial");
+  // console.log(longest);
 
 // ---------------------5------------------
 // 5. Write a JavaScript function that checks whether a number is perfect.
