@@ -70,7 +70,7 @@
 // ---------------------5------------------
 // 5. Write a JavaScript function that checks whether a number is perfect.
 
-let p= (a) =>{
+let p = (a) =>{
   let n = 0;
   for(let i = 1; i<a; i++)
   {
